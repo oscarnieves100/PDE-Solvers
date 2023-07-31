@@ -433,8 +433,8 @@ def gridder(x_uniform: int=11,
 ###############################################################################
 """
 Based on the paper:
-    Sundqvist, H. and Veronis, G., 1970. A simple finite‐difference grid 
-    with non‐constant intervals. Tellus, 22(1), pp.26-31.
+    Veldman, A.E.P. and Rinzema, K., 1992. Playing with nonuniform grids. 
+    Journal of engineering mathematics, 26(1), pp.119-130.
 """
 # --- 1st derivatives --- #
 def Dx(x: np.ndarray, y: np.ndarray, dx: np.ndarray):
